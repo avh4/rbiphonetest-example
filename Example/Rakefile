@@ -1,13 +1,18 @@
 require "rubygems"
 require "rake"
 require "rake/testtask"
+require "spec/rake/spectask"
 
-task :default => :test
+task :default => :spec
 
 Rake::TestTask.new do |t|
   t.libs << "test" << "test/bundles"
   t.test_files = FileList['test/test*.rb']
   t.verbose = true
+end
+
+Spec::Rake::SpecTask.new do |t|
+  t.warning = true
 end
 
 namespace :objc do
