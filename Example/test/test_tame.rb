@@ -9,8 +9,8 @@ class TestTame < Test::Unit::TestCase
   end
   
   def test_tame_should_add_numbers
-    tame = OSX::Tame.alloc.init;
-    assert_equal(7, tame.add_to(3,4));
+    tame = OSX::Tame.alloc.init
+    assert_equal(7, tame.add_to(3,4))
   end
   
   def test_tame_should_add_negative_numbers
