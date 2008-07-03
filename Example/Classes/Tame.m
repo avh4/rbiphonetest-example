@@ -10,6 +10,10 @@
 
 
 @implementation Tame
+-(int) add:(int)a to:(int)b
+{
+	return 0;
+}
 
 @end
 
