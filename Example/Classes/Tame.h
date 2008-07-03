@@ -12,4 +12,6 @@
 
 }
 
+-(int) add:(int)a to:(int)b;
+
 @end
