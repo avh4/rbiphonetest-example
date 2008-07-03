@@ -12,7 +12,7 @@
 @implementation Tame
 -(int) add:(int)a to:(int)b
 {
-	return 7;
+	return a + b;
 }
 
 @end
