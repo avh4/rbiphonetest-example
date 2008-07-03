@@ -1,0 +1,22 @@
+Story: Adding numbers
+	As a Cocoa developer
+	I want a method to add two numbers
+	So that I can try out using rspec for testing objc code
+	
+	Scenario: Positive numbers are added
+	
+		Given a Tame instance
+		And two numbers to add, 3 and 4
+		
+		When the numbers are added
+		
+		Then the return value should be 7
+		
+	Scenario: Negative numbers are added
+	
+		Given a Tame instance
+		And two numbers to add, -10 and -6
+		
+		When the numbers are added
+		
+		Then the return value should be -16
