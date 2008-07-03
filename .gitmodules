@@ -1,0 +1,3 @@
+[submodule "rbiphonetest"]
+	path = rbiphonetest
+	url = git://github.com/drnic/rbiphonetest.git
